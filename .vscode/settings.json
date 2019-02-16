@@ -1,6 +1,6 @@
 {
     "python.linter": "bandit",
-    "python.condaPath": "/Users/bdawson/anaconda2/anaconda2",
+    "python.condaPath": "/Users/bdawson/anaconda3/bin/python",
     "python.linting.banditEnabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
