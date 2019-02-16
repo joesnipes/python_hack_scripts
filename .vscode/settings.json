@@ -1,2 +1,4 @@
 {
+    "python.linter": "bandit",
+    "python.condaPath": "/Users/bdawson/anaconda2/anaconda2"
 }
