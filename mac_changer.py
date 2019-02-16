@@ -2,8 +2,9 @@
 
 import subprocess
 
-interface = "wlan0"
-new_mac = "00:11:22:33:44:66"
+
+interface = input("which interface do you want to change? ")
+new_mac = input("Specify the new MAC address: ")
 
 print("[+] Changing MAC address for " + interface + " to " + new_mac)
 
